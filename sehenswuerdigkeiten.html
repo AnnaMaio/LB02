@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sehenswürdigkeiten</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-utilities.css" rel="stylesheet">
+        <link href="css/bootstrap-reboot.css" rel="stylesheet">
+        <link href="css/bootstrap-grid.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sehenswuerdigkeiten.html">Sehenswürdigkeiten</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ueber-uns.html">Über uns</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <h1 class="d-flex justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">Sehenswürdigkeiten</h1>
+        <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 960px; height: 540px;">
+            <style> .carousel
+                {border: 2px solid blue;
+                padding: 3px;}
+            </style>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner" style="border: #0a53be 10px;">
+                <div class="carousel-item active">
+                    <img src="slider/s_aetschgletscher%20.jpeg" class="d-block w-100" alt="slide_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="slider/s_creux.jpeg" class="d-block w-100" alt="slide_2">
+                </div>
+                <div class="carousel-item">
+                    <img src="slider/s_kappelbruecke.jpeg" class="d-block w-100" alt="slide_3">
+                </div>
+                <div class="carousel-item">
+                    <img src="slider/s_sechselaeutenplatz.jpeg" class="d-block w-100" alt="slide_4">
+                </div>
+                <div class="carousel-item">
+                    <img src="slider/s_matterhorn.jpeg" class="d-block w-100" alt="slide_5">
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slider/s_rheinfall.jpeg" class="d-block w-100" alt="slide_6">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        <div class="d-flex justify-content-center">
+        <div class="btn-group btn-link" style="margin-top: 50px;">
+            <a href="aletschgletscher.html" class="btn btn-primary">Grosse Aletschgletscher</a>
+            <a href="creux.html" class="btn btn-danger">Creux du Van</a>
+            <a href="kappelbruecke.html" class="btn btn-primary">Kappelbrücke</a>
+            <a href="sechselaeutenplatz.html" class="btn btn-danger">Sechseläutenplatz</a>
+            <a href="matterhorn.html" class="btn btn-primary">Matterhorn</a>
+            <a href="rheinfall.html" class="btn btn-danger">Rheinfall</a></div>
+        </div>
+    </main>
+    <footer>
+        <div class="d-flex justify-content-center">
+            <div class="d-grid gap-2 align-bottom position-absolute bottom-0">
+               <a href="kontakt.html"><button class="btn btn-primary" type="button">Kontakt</button></a>
+            </div>
+        </div>
+    </footer>
+        <script src="js/bootstrap.js"></script>
+</body>
+</html>
